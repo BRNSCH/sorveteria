@@ -1,0 +1,135 @@
+.sabores-banner {
+    background-image: url('/assets/banner-sabores.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sabores-banner h1 {
+    font-size: 6vw;
+}
+
+.sabores-limite-largura {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 110px 20px;
+}
+
+.sabores-limite-largura h2 {
+    margin: 65px 0px 25px 0px;
+    font-size: 30px;
+}
+
+.sabores {
+    max-width: 1024px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.sabores-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: calc(30% - 5px);
+    height: 360px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 5px#e9ebed;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+}
+
+.sabores-card img {
+    height: 60%;
+    object-fit: contain;
+    margin-bottom: 5px;
+
+}
+
+.sabores-card-spaco {
+    margin: 10px;
+}
+
+.sabores-card-span {
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+@media(max-width:425px) {
+    .sabores-banner h1 {
+        font-size: 14vw;
+        padding: 10%;
+        text-align: center;
+    }
+
+    .sabores {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sabores-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        width: 100%;
+        height: 360px;
+        padding: 20px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 5px 5px#e9ebed;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .sabores-banner h1 {
+        font-size: 7vw;
+        padding: 10%;
+
+    }
+
+    .sabores {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sabores-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        width: 100%;
+        height: 360px;
+        padding: 20px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 5px 5px#e9ebed;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+
+    }
+
+}

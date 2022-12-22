@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+.sobre-banner {
+    background-image: url('assets/banner-sobre.png');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-banner {
+    font-size: 5vw;
+    color: #ffffff;
+    text-shadow: rgb(58, 58, 58) 4px 5px 3px;
+    text-transform: uppercase;
+
+}
+
+.seccao-sobre {
+    max-width: 1024px;
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.seccao-sobre span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-style: italic;
+    line-height: 30px;
+
+
+}
+
+.sobre-imagens {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sobre-imagens div {
+    width: 50%;
+
+}
+
+.sobre-imagens-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media (max-width:436px) {
+    .titulo-banner {
+        font-size: 9vw;
+
+    }
+
+    .sobre-imagens {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .sobre-imagens div {
+        width: 100%;
+
+
+    }
+
+    .sobre-imagens-img {
+        /* also try 'contain' and 'cover' */
+        display: block;
+
+
+
+
+
+    }
+
+}
+
+@media (min-width:436px) and (max-width:768px) {
+    .titulo-banner {
+        font-size: 7vw;
+
+    }
+
+    .sobre-imagens {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .sobre-imagens div {
+        width: 100%;
+
+
+    }
+
+    .sobre-imagens-img {
+        /* also try 'contain' and 'cover' */
+        display: block;
+
+
+
+
+
+    }
+
+}
+
+
+

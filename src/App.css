@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #f9db79;
+  width: 100%;
+}
+
+.limite-largura {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-logo {
+  width: 60px;
+  margin: 10px;
+}
+
+.topo-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin: 0 25px;
+  font-size: 20px;
+
+}
+
+.banner-home {
+  background: url('././assets/banner-home.png')no-repeat #f9db79 center;
+  width: 100%;
+  height: 600px;
+
+
+}
+
+.banner-home div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.home-banner {
+  font-size: 6vw;
+  color: #ffffff;
+  text-shadow: rgb(58, 58, 58) 4px 5px 3px;
+
+}
+
+.home-descricao {
+  width: 100%;
+  display: flex;
+}
+
+.home-descricao img {
+  width: calc(50%);
+  object-fit: cover;
+}
+
+.home-descricao div {
+  width: calc(50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.home-descricao div h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 20px 0 20px;
+
+}
+
+.home-descricao div p:first-of-type {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 0 20px;
+
+
+}
+
+.home-descricao div p {
+  max-width: 450px;
+  font-size: 15px;
+  padding: 25px;
+
+}
+
+footer {
+  background-color: #000;
+  width: 100%;
+  color: #ffffff;
+  padding: 60px 30px 10px 30px;
+
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.footer-logo {
+  width: 60px;
+}
+
+.footer-info h3 {
+  font-size: 18px;
+}
+
+.footer-info p {
+  font-size: 12px;
+}
+
+.rodape-dev {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 12px;
+}
+
+@media (max-width:425px) {
+  .limite-largura {
+    flex-direction: column;
+
+  }
+
+  .header-logo {
+    margin-bottom: 0px;
+  }
+
+  .topo nav {
+    border-top: 1px solid #808080;
+    padding-top: 10px;
+
+  }
+
+  .topo-link {
+    font-size: 18px;
+    margin: 0 30px;
+
+  }
+
+  .banner-home {
+    background-size: 100%;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+
+  }
+
+  .home-banner {
+    font-size: 10vw;
+    padding: 10%;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: rgb(58, 58, 58) 3px 4px 3px;
+
+  }
+
+  .home-descricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-descricao img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .home-descricao div {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    text-align: center;
+
+  }
+
+  .home-descricao div p {
+
+    padding: 30px 60px;
+
+  }
+
+  .home-descricao-posicao-01 {
+    order: 2;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  .footer-logo {
+    width: 90px;
+  }
+
+  .footer-info p {
+    font-size: 14px;
+  }
+
+  .rodape-dev {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+  .banner-home {
+    background-size: 450px;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+  }
+
+  .home-banner {
+    font-size: 45px;
+    color: #ffffff;
+    text-shadow: rgb(58, 58, 58) 4px 5px 3px;
+
+  }
+
+  .home-descricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-descricao img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .home-descricao div {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    text-align: center;
+
+  }
+
+  .home-descricao div p {
+    padding: 40px 10px 80px 10px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 16px;
+
+  }
+
+  .home-descricao-posicao-01 {
+    order: 2;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  .footer-logo {
+    width: 90px;
+  }
+
+  .footer-info p {
+    font-size: 14px;
+  }
+
+  .rodape-dev {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+}

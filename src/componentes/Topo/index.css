@@ -1,0 +1,28 @@
+header {
+    background-color: #f9db79;
+    width: 100%;
+}
+
+.limite-largura {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    width: 60px;
+    margin: 10px;
+}
+
+.topo-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0 25px;
+    font-size: 20px;
+
+}
