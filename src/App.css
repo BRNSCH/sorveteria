@@ -35,7 +35,7 @@ header {
 }
 
 .banner-home {
-  background: url('./assets/banner-home.png')no-repeat #f9db79 center;
+  background: url('/assets/banner-home.png')no-repeat #f9db79 center;
   width: 100%;
   height: 600px;
 
